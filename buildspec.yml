@@ -8,4 +8,4 @@ phases:
       - echo This always runs even if the install command fails
 artifacts:
   files:
-    - ‘**/*’
+    - my-web-app.war
