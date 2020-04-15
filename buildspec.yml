@@ -4,9 +4,9 @@ phases:
   build:
     commands:
       - mvn package
-      - mv target/my-web-app.war my-web-app.war
+      - mv target/juggy-app.war juggy-app.war
     finally:
       - echo This always runs even if the install command fails
 artifacts:
   files:
-    - my-web-app.war
+    - juggy-app.war
